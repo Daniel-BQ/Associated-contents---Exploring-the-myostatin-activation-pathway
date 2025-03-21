@@ -1,0 +1,20 @@
+Minimize solvent
+ &cntrl
+   imin=1,
+   maxcyc=10000,
+   ncyc=2500,
+   cut=12.0,
+   ntmin=1,
+   ntb=1,
+   ntc=1,
+   ntf=1,
+   ntr=1,
+   restraintmask="!(:WAT)",
+   restraint_wt=20.0,
+   ntwx=100,
+   ntpr=100,
+   ntwr=100,
+   iwrap=1,
+   ioutfm=0, 
+ /
+

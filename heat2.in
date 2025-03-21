@@ -1,0 +1,18 @@
+Heat system (constant volume) - 100-200K - 500 ps (dt = 2 fs)
+ &cntrl
+  imin=0,
+  nstlim=250000,
+  dt=0.002,
+  irest=1, ntx=5,
+  ntb=1, 
+  ntc=2,
+  ntf=2,
+  cut=12.0, 
+  iwrap=0,
+  ntpr=10000, ntwx=10000, ntwr=10000,
+  ntt=3, gamma_ln=5.0, ig=-1, 
+  tempi=100.0, temp0=200.0,
+  ntr=1, restraintmask="!(:WAT)", restraint_wt=10.0,
+  ioutfm=1,
+ /
+
