@@ -1,6 +1,6 @@
 # Associated-contents---Exploring-the-myostatin-activation-pathway
 
-This associated contents is referent to the work "Exploring the Myostatin Activation Pathway: A Promising Target for Treating Muscle Atrophy". It is disponible all inputs used for simulate the systems, calculate the proprierties and the outputs for the last 100 ns of each system simulated.
+This is the content associated with the article "Exploring the Myostatin Activation Pathway: A Promising Target for Treating Muscle Atrophy". In this material, all inputs used to simulate the systems (MD using amber24 software), calculate the properties (cpptraj package) and the trajectories used in the property calculations (last 100 ns of each simulated system) are available.
 
 The file "MD_protocol.zip" presents the inputs for MD simulation employed on the work (*.in files) and the protocol used for all simulations (job_MD.csh file). The protocol was fully described on the methodology section of the article.
 
